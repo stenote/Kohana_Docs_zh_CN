@@ -1,0 +1,1 @@
+本章节将讨论讲解控制器的基本操作,像 befroe(),after(),或是私有函数(或方法),还有继承,比如承继 Controller_Template 类(这个类在开发中经常用来,实现模板化建站),以及使用parent::before()方法来确认(从父类继承过来的方法或在控制器运行前需要执行(有可能是载入)的方法,或是文件).[原文](#This will discuss controller basics, like before() and after(), private function, and about extending controllers like the Controller_Template, or using a parent::before() for authentication.)
