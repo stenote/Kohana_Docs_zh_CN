@@ -1,6 +1,6 @@
 # Hello, World
 
-几乎所有正式的框架都有很棒的'hello world'例子,破坏这江湖规矩是相当不礼貌的![原文](# Just about every framework ever written has some kind of hello world example included, so it'd be pretty rude of us to break this tradition!)
+几乎所有正式的框架都有很棒的'hello world'例子,破坏这江湖规矩是相当不礼貌的! [原文](# Just about every framework ever written has some kind of hello world example included, so it'd be pretty rude of us to break this tradition!)
 
 我们将从创建一个非常基础的'hello world',然后再扩展到用MVC模式呈现它.[原文](# We'll start out by creating a very very basic hello world, and then we'll expand it to follow MVC principles.)
 
@@ -33,7 +33,7 @@
 这个声明了控制器的'index'功能(动作).如果用户没有指定一个功能(动作),Kohana会尝试去使用它--即'index'是每个控制器默认功能(动作).(查看[Routes,URLs and Links](tutorials.urls))[原文](# :	This defines the "index" action of our controller.  Kohana will attempt to call this action if the user hasn't specified an action. (See [Routes, URLs and Links](tutorials.urls)))
 
 `echo 'hello, world!';`
-这个是常见的输出语句![原文](# :	And this is the line which outputs the customary phrase!)
+这个是常见的输出语句! [原文](# :	And this is the line which outputs the customary phrase!)
 
 现在如果打开浏览器并访问http://localhost/index.php/hello ,你应看到下面的:[原文](# Now if you open your browser and go to http://localhost/index.php/hello you should see something like:)
 
@@ -45,7 +45,7 @@
 
 如果你有听闻MVC,你很可能意识到直接在控制器中输出内容是完全违背MVC模式原则的.原文](# If you've ever heard anything about MVC you'll probably have realised that echoing content out in a controller is strictly against the principles of MVC.)
 
-使用MVC特有的方式编码,是使用_视图_来操作应用的显示,让控制器做它最擅长的--控制请求流(即逻辑控制)![原文](# The proper way to code with an MVC framework is to use _views_ to handle the presentation of your application, and allow the controller to do what it does best – control the flow of the request!)
+使用MVC特有的方式编码,是使用_视图_来操作应用的显示,让控制器做它最擅长的--控制请求流(即逻辑控制)! [原文](# The proper way to code with an MVC framework is to use _views_ to handle the presentation of your application, and allow the controller to do what it does best – control the flow of the request!)
 
 让我们对原来的控制器作一个小小的改动:[原文](# Lets change our original controller slightly:)
 
